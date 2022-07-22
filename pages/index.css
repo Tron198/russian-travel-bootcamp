@@ -11,9 +11,6 @@
 @import url(../bloсks/header/__lang-link/header__lang-link.css);
 @import url(../bloсks/header/__logo/header__logo.css);
 
-/*CONTENT*/
-@import url(../bloсks/content/content.css);
-
 /*LEAD*/
 @import url(../bloсks/lead/lead.css);
 @import url(../bloсks/lead/__title/lead__title.css);
@@ -39,7 +36,7 @@
 @import url(../bloсks/place/__title/place__title.css);
 @import url(../bloсks/place/__website/place__website.css);
 @import url(../bloсks/place/__url-heading/place__url-heading.css);
-@import url(../bloсks//place/__link/place__link.css);
+@import url(../bloсks/place/__link/place__link.css);
 @import url(../bloсks/place/__image/place__image.css);
 @import url(../bloсks/place/__paragraph/place__paragraph.css);
 
@@ -53,7 +50,7 @@
 @import url(../bloсks/footer/footer.css);
 @import url(../bloсks/footer/__links/footer__links.css);
 @import url(../bloсks/footer/__link/footer__link.css);
-@import url(../bloсks/footer/__copyright/gooter__copyright.css);
+@import url(../bloсks/footer/__copyright/footer__copyright.css);
 
 
 

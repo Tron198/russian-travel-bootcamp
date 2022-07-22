@@ -1,37 +1,29 @@
 .place {
   display: grid;
-  grid-template-columns: repeat(2, 1fr);
-  grid-template-rows: auto;
+  grid-template-columns: 460px 1fr;
   grid-gap: 48px 40px;
   margin-top: 80px;
   max-width: 984px;
 }
 @media screen and (max-width: 1024px) {
   .place {
+    grid-template-columns: 440px 1fr;
     column-gap: 32px;
     max-width: 928px;
   }
 }
-@media screen and (max-width: 968px) {
-  .place {
-    column-gap: 28px;
-  }
-}
 @media screen and (max-width: 768px) {
   .place {
-    grid-gap: 48px 28px;
+    grid-template-columns: 340px 1fr;
+    gap: 48px 28px;
+    margin-top: 73px;
   }
 }
-@media screen and (max-width: 760px) {
+@media screen and (max-width: 660px) {
+  /*брейкпоинт выбран так близко к 768 по причине того что именно в этой точке на мой взгля стоит поменять grid-template-columns для более красивого построения сайта*/
   .place {
-    display: flex;
-    flex-direction: column;
-    margin: 0 auto;
-    row-gap: 0;
-  }
-}
-@media screen and (max-width: 320px) {
-  .place {
-    max-width: 320px;
+    grid-template-columns: 1fr;
+    row-gap: 32px;
+    margin-top: 50px;
   }
 }

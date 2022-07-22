@@ -1,13 +1,6 @@
 .place__website {
   align-self: flex-end;
-  grid-row: 1;
-  grid-column: 2;
   max-width: 352px;
-}
-@media screen and (max-width: 768px) {
-  .place__website {
-    max-width: 352px;
-  }
 }
 @media screen and (max-width: 760px) {
   .place__website {
