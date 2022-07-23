@@ -4,15 +4,15 @@
   margin-bottom: 25px;
   font-style: normal;
   font-weight: 400;
-  font-size: 16px;
+  font-size: 18px;
   line-height: 163%;
 }
 .place__paragraph:last-child {
   margin-bottom: 0;
 }
-@media screen and (max-width: 460px) {
+@media screen and (max-width: 768px) {
   .place__paragraph {
-    max-width: calc(100% - 2 * 16px);
+    font-size: 16px;
     padding: 0 16px;
   }
 }
